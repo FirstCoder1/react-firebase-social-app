@@ -1,0 +1,26 @@
+@media only screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-sidebar {
+        display: block;
+    }
+    .desktop-sidebar{
+        display: none;
+    }
+  }
+
+  
+@media only screen and (min-width:769px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .mobile-sidebar {
+        display: none;
+    }
+    .desktop-sidebar{
+        display: block;
+    }
+  }
